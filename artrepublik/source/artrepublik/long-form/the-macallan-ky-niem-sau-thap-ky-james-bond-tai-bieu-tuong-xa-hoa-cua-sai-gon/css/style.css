@@ -1,0 +1,305 @@
+
+/*----------------*/
+
+.mr-top {
+	margin-top: 50px;
+}
+
+.mr-bottom {
+	margin-bottom: 50px;
+}
+
+.container-text {
+	max-width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*------------------------*/
+
+.bg-main {
+	background-color: white;
+	padding-top: 60px;
+	position: relative;
+}
+
+.bg-title {
+	background-image: url(../images/bg-title.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 960px;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-title p {
+	margin-bottom: 5px;
+}
+
+.title {
+    background-color: #BE1E2D;
+    color: white;
+    font-family: "SFUCentury-Roman";
+    font-size: 45px;
+    font-weight: 700;
+    padding: 0 20px;
+}
+
+.title2 {
+	font-family: "SFUCentury-Italic";
+	font-size: 45px;
+    font-weight: 700;
+    color: black;
+    padding-left: 10px;
+}
+
+.title3 {
+	margin-left: 105px;
+}
+
+.title4 {
+	font-family: "PlayfairDisplay";
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 33px;
+	margin-top: 5px;
+	margin-bottom: 60px;
+}
+
+.img-bg {
+	width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: -158px;
+    z-index: -1;
+}
+
+.img-page {
+	width: 100%;
+	height: auto;
+}
+
+.text {
+    font-family: "HelveticaNeue";
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    text-align: justify;
+    font-style: italic;
+    padding: 30px 20px;
+}
+
+.text2 {
+	font-family: "HelveticaNeue";
+    color: #414042;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.img-bg2 {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -165px;
+    z-index: -1;
+}
+
+.bg-text {
+	position: relative;
+}
+
+.bg-text p {
+	margin-top: 45px; 
+}
+
+.list-img {
+	background-image: url(../images/bg2.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+	display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    margin-top: 50px;
+    padding: 45px 0;
+}
+
+.text3 {
+    font-family: "PlayfairDisplay";
+    color: #BE1E2D;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.text3 img:nth-child(1) {
+	position: relative;
+    bottom: 10px;
+}
+
+.bg-title2 {
+	background-image: url(../images/bg-title2.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 960px;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #BE1E2D;
+    padding-top: 25px;
+}
+
+.text4 {
+	font-family: "HelveticaNeue";
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.bg-text2 {
+	background-color: white;
+	padding-top: 60px;
+	padding-bottom: 100px;
+	position: relative;
+}
+
+.text5 {
+	color: #603913;
+	font-style: italic;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.img-bg3 {
+	width: 100%;
+    height: auto;
+    position: absolute;
+    top: -270px;
+    z-index: -1;
+}
+
+@media(max-width: 1600px) {
+	.img-bg {
+		bottom: -130px;
+	}
+}
+
+@media(max-width: 1400px) {
+	.img-bg2 {
+		top: -100px;
+	}
+}
+
+@media(max-width: 1200px) {
+	.img-bg {
+		bottom: -95px;
+	}
+
+	.img-bg2 {
+		top: -72px;
+	}
+
+	.img-bg3 {
+		top: -210px;
+	}
+}
+
+@media(max-width: 991px) {
+	.title,
+	.title2 {
+		font-size: 35px;
+	}
+
+	.title4 {
+		font-size: 25px;
+	}
+
+	.img-bg {
+		bottom: -70px;
+	}
+
+	.img-bg2 {
+		top: -85px;
+    	height: 440px;
+	}
+
+	.text3 {
+		font-size: 28px;
+	}
+
+	.text4 {
+		font-size: 20px;
+	}
+
+	.img-bg3 {
+		top: -150px;
+	}
+}
+
+@media(max-width: 740px) {
+	.title,
+	.title2 {
+		font-size: 25px;
+	}
+
+	.title4 {
+		font-size: 20px;
+	}
+
+	.img-bg2 {
+		height: 600px;
+	}
+
+	.list-img {
+		grid-template-columns: auto;
+	}
+
+	.list-img img {
+		margin-bottom: 15px;
+	}
+}
+
+@media(max-width: 450px) {
+	.img-bg {
+		bottom: -74px;
+    	height: 200px;
+	}
+
+	.title, .title2 {
+		font-size: 22px;
+	}
+
+	.title4 {
+		font-size: 18px;
+	}
+
+	.title3 {
+		margin-left: 0;
+	}
+
+	.text {
+		font-size: 18px;
+	}
+
+	.text3 {
+		font-size: 20px;
+	}
+
+	.bg-text2 {
+		padding-top: 30px;
+    	padding-bottom: 50px;
+	}
+
+	.img-bg3 {
+		display: none;
+	}
+}

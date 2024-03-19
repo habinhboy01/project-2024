@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "BeVietnamPro";
+  src: url("../fonts/BeVietnamPro/BeVietnamPro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "BeVietnamPro-Bold";
+  src: url("../fonts/BeVietnamPro/BeVietnamPro-Bold.ttf");
+}
+
+@font-face {
+  font-family: "NotoSerif";
+  src: url("../fonts/Noto/NotoSerif-Regular.ttf");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,ol {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+select:focus {
+	outline: none;
+}
+
+/*input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}*/
+
+
+

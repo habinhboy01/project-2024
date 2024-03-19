@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Arial";
+  src: url("../fonts/Arial/SVN-Arial Regular.ttf");
+}
+
+@font-face {
+  font-family: "Arial-bold";
+  src: url("../fonts/Arial/SVN-Arial Bold.ttf");
+}
+
+@font-face {
+  font-family: "Federation";
+  src: url("../fonts/Federation/Federation.ttf");
+}
+
+@font-face {
+  font-family: "Federation-bold";
+  src: url("../fonts/Federation/Federation Kalin.ttf");
+}
+
+@font-face {
+  font-family: "Monument";
+  src: url("../fonts/Monument/MonumentExtended-Regular.otf");
+}
+
+@font-face {
+  font-family: "Monument-bold";
+  src: url("../fonts/Monument/MonumentExtended-Ultrabold.otf");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-bold";
+  src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+
+:root {
+	--color-red: #ff0048;
+	--color-black: #05171c;
+	--color-white: #fff;
+	--color-brown: #7b6569;
+	--color-yellow: #ffff00;
+	--skin-color: #ffebe0;
+	--color-blue: #8af7e5;
+	--color-violet: #d0a8ff;
+
+	/*background menu*/
+	--color-modal: #ff6060;
+	--color-menu: #5d358c;
+
+	/*font size*/
+
+	--size-title: 35px;
+	--size-title-2: 17px;
+	--size-content: 16px;
+	--size-continue: 12px;
+}
+
+body,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul,ol,li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+select:focus {
+	outline: none;
+}
+
+/*input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}*/
+

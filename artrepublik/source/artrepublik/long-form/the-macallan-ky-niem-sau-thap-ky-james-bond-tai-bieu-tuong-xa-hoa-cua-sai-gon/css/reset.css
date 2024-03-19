@@ -1,0 +1,65 @@
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../fonts/HelveticaNeue.ttc");
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "SFUCentury-bold";
+  src: url("../fonts/SFUCenturySchoolbookBTBold.TTF");
+}
+
+@font-face {
+  font-family: "SFUCentury-Italic";
+  src: url("../fonts/SFUCenturySchoolbookBTItalic.TTF");
+}
+
+@font-face {
+  font-family: "SFUCentury-Roman";
+  src: url("../fonts/SFUCenturySchoolbookBTRoman.TTF");
+}
+
+body {
+  background-image: url(../images/bg-main.png);
+  background-repeat: repeat;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,ol {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+select:focus {
+	outline: none;
+}
+
+/*input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}*/
+
+
+
