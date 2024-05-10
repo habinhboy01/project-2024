@@ -1,0 +1,623 @@
+.heading-to-scroll {
+  scroll-margin-top: 130px;
+}
+
+.heading-line.active a {
+  color: #df161e;
+}
+
+.ser-detail-wrap {
+  line-height: 2;
+  margin: 0 auto 50px auto;
+  margin-top: -150px;
+}
+
+.ser-detail-wrap ul,
+.ser-detail-wrap ol {
+  list-style-position: inside;
+  padding-left: 30px;
+}
+
+.ser-detail-wrap .heading-to-scroll:first-child {
+  margin-top: 0px;
+}
+
+.ser-detail-wrap .heading-to-scroll {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.content-table {
+  position: sticky;
+  top: 115px;
+  overflow: auto;
+  height: 70vh;
+}
+
+.heading-line a {
+  display: block;
+  padding: 15px 20px;
+  border: 1px solid #d9d9d9;
+  line-height: 1.5;
+  color: #1b2754;
+  font-weight: 500;
+  font-size: 15px;
+  /* margin-bottom: 10px; */
+}
+
+.heading-line:nth-child(even):not(:last-child) a {
+  border-bottom: none;
+  border-top: none;
+}
+
+/* .heading-line:last-child a {
+  border-top: none;
+} */
+
+.ser-detail-wrap p {
+  margin: 5px auto;
+}
+
+.ser-detail-wrap img {
+  margin: 20px auto;
+}
+
+.ser-detail-wrap table {
+  margin: 15px auto;
+}
+.row.detail-content {
+  font-family: "Be Vietnam Pro";
+  color: #1b2754;
+}
+.wp-element-caption {
+  font-size: 14px;
+}
+.img-bg {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.img-bg img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.crumb {
+  text-align: center;
+  background-color: #1b2754;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  padding-top: 50px;
+  padding-bottom: 190px;
+}
+
+/* .back-top-rocket:hover {
+  transform: scale(1.1);
+} */
+.back-top-rocket::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 3px;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
+  height: 40px;
+  background: linear-gradient(#00d0ff, #00d0ff40, transparent);
+  border-radius: 20px;
+  transition: 0.5s ease;
+}
+.back-top-rocket::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 10px;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
+  height: 40px;
+  background: linear-gradient(#00d0ff, #00d0ff40, transparent);
+  filter: blur(2px);
+  border-radius: 20px;
+  transition: 0.5s ease;
+}
+
+.back-top-rocket i {
+  font-size: 20px;
+}
+
+@keyframes rocket {
+  0% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+}
+
+.back-top-rocket {
+  position: fixed;
+  bottom: 5%;
+  right: 30px;
+  transform: translateY(1000px);
+  transition: 0.5s ease;
+  z-index: 999;
+}
+
+.back-top-rocket.active {
+  animation: rocket 1.5s ease;
+}
+
+.back-top-rocket.roc-active {
+  transform: translateY(0);
+}
+
+.heading_tracking img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.heading-tracking-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #df161e;
+  margin: 30px auto 50px auto;
+}
+
+.code form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 0;
+  background-color: #1b2754;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  border: none;
+
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.order-detail {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.order-detail ul {
+  list-style-position: inside;
+  list-style: none;
+}
+
+.code form input {
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.code form label {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.code form button {
+  padding: 10px 20px;
+  /* border-radius: 50%; */
+  border: none;
+}
+
+.label-info {
+  color: #df161e;
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.sender,
+.receiver,
+.package-detail {
+  margin-bottom: 20px;
+}
+
+.list-info li {
+  margin-bottom: 10px;
+}
+
+.list-info span {
+  font-weight: 600;
+  color: #1b2754;
+  margin-left: 10px;
+}
+
+.list-tracking {
+  list-style: none;
+  width: 90%;
+  margin: 0 auto;
+}
+.list-tracking li {
+  height: 100px;
+  position: relative;
+  padding-left: 40px;
+}
+
+.list-tracking li::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: grey;
+  left: 0;
+}
+.list-tracking li:not(.current-state).success::before {
+  background-color: green;
+}
+.list-tracking li:not(.current-state).failed::before {
+  background-color: #b90c0c;
+}
+
+.list-tracking li::after {
+  content: "";
+  font-family: "Font Awesome 6 Pro";
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  font-weight: 800;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 2px solid;
+  left: 0;
+  transform: translateX(-50%);
+  top: 0;
+  border-radius: 50%;
+}
+
+.list-tracking li.success::after {
+  content: "\f00c";
+  background-color: green;
+  border: none;
+  color: #fff;
+}
+
+.list-tracking li.failed::after {
+  content: "\f00d";
+  background-color: #b90c0c;
+  border: none;
+  color: #fff;
+}
+
+.tracking-line ul {
+  list-style: none;
+}
+
+iframe {
+  width: 100%;
+}
+
+.include-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+
+.includes {
+  margin: 30px 0;
+}
+
+.heading-img {
+  height: 100%;
+}
+.heading-img img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.include-des {
+  text-align: center;
+}
+
+.quantity {
+  margin: 10px 0;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.include-icon img {
+  width: 100%;
+  object-fit: cover;
+}
+.include-icon {
+  width: 64px;
+  height: 64px;
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.heading-des {
+  margin: 70px auto;
+}
+
+.mission-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-des {
+  text-align: center;
+  margin: 30px auto 50px auto;
+}
+
+.mission-wrap {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.mission-bg {
+  padding: 10px 0;
+  background: linear-gradient(rgba(106, 75, 144, 0.78), rgb(29 109 212 / 54%));
+  color: #fff;
+}
+
+.mission-icon img {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.mission-des h2 {
+  margin-bottom: 20px;
+}
+
+.mission-item .include-des h3 {
+  margin: 20px 0;
+}
+
+.last-title {
+  font-family: "Be Vietnam Pro";
+  text-align: center;
+  /* font-size: 25px; */
+  color: #df161e;
+  margin: 70px auto 40px auto;
+  font-weight: 700;
+}
+.core-text {
+  line-height: 2;
+}
+
+.core-text p {
+  margin-bottom: 20px;
+}
+
+.cores {
+  margin-bottom: 50px;
+}
+
+.car-loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellow; */
+  max-height: 0;
+  transform: scale(0);
+  transition: 0.3s ease;
+  margin-bottom: 30px;
+}
+
+.car-loading.active {
+  max-height: 84px;
+  transform: scale(1);
+}
+
+.car-body {
+  height: 30px;
+  width: 50px;
+  background-color: #000;
+  border-radius: 5px;
+  animation: moving 0.5s linear infinite;
+  position: relative;
+}
+
+@keyframes moving {
+  100% {
+    transform: translateY(3px);
+  }
+}
+
+.car-body::before {
+  content: "";
+  width: 30px;
+  height: 15px;
+  background-color: #fff;
+  top: -4px;
+  right: -14px;
+  position: absolute;
+  transform: rotate(40deg);
+}
+@keyframes wheels {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.wheel {
+  position: absolute;
+  bottom: -7.5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: #000;
+  /* transform: translateY(50%); */
+  animation: wheels 0.4s linear infinite;
+}
+
+.cover {
+  margin: 0 auto;
+  width: 100px;
+  height: 5px;
+  position: relative;
+  bottom: -8px;
+  background-color: #000;
+}
+
+@keyframes road {
+  100% {
+    transform: translateX(-60px);
+  }
+}
+
+.loading-text {
+  margin-top: 25px;
+  font-family: "Be Vietnam Pro";
+  color: #1b2754;
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+
+  background-color: #fff;
+  left: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: road 0.6s linear infinite;
+}
+
+.cover::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+
+  background-color: #fff;
+  right: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: road 0.6s linear infinite;
+}
+
+.front {
+  left: 10%;
+}
+.back {
+  right: 10%;
+}
+
+.wheel::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  top: 54%;
+  transform: translateY(-50%);
+}
+.wheel::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #fff;
+  left: 54%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 992px) {
+  .detail-content .col-lg-8 {
+    order: 2;
+    margin-top: 20px;
+  }
+  .img-bg {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .crumb {
+    padding-bottom: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  .code form {
+    margin-bottom: 20px;
+  }
+  .heading-des {
+    margin: 30px auto;
+  }
+  .bg-services .img-service {
+    height: 200px;
+  }
+  .include-item {
+    margin-bottom: 20px;
+  }
+  .core-text {
+    margin-top: 30px;
+  }
+  .last-title {
+    margin: 35px auto;
+  }
+  .mission-item {
+    margin-bottom: 20px;
+  }
+  .heading-text-wrap > h2 {
+    font-size: 22px;
+  }
+  .heading-tracking-title {
+    font-size: 35px;
+  }
+  .code form label {
+    text-align: center;
+    width: 100%;
+  }
+  .code form input {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .code form {
+    padding: 20px 0;
+  }
+  .heading-line a {
+    font-size: 12px;
+  }
+  .ser-detail-wrap ul,
+  .ser-detail-wrap ol {
+    padding-left: 15px;
+  }
+  .crumb {
+    padding: 20px 12px;
+    font-size: 35px;
+  }
+  .ser-detail-wrap {
+    line-height: 2;
+    margin: 0 auto 50px auto;
+    margin-top: unset;
+  }
+  .img-bg img {
+    height: auto;
+  }
+  .img-bg {
+    width: 90%;
+    margin: 30px auto;
+  }
+}

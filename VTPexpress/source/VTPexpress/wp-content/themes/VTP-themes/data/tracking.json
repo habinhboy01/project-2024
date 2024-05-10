@@ -1,0 +1,41 @@
+{
+  "mes": "Thành Công",
+  "idorder": "VTP123",
+  "order-info": {
+    "weight": "5kg",
+    "type": "Quần áo, giày dép"
+  },
+  "order-status": "Đã giao hàng",
+  "order-process-detail-list": [
+    {
+      "item-date": "21/12/2023 14:05:41",
+      "item-desc": "[50-HCM D11 Hub] Đơn hàng của bạn đã được nhận",
+      "status": "1"
+    },
+    {
+      "item-date": "22/12/2023 14:05:41",
+      "item-desc": "[50-HCM D11 Hub] Đơn hàng đang được giao tới bạn",
+      "status": "1"
+    },
+    {
+      "item-date": "23/12/2023 14:05:41",
+      "item-desc": "[50-HCM D11 Hub] Đơn hàng của bạn đã bị trả về bưu cục",
+      "status": "0"
+    },
+    {
+      "item-date": "24/12/2023 14:05:41",
+      "item-desc": "[50-HCM D11 Hub] Giao hàng thành công",
+      "status": "1"
+    }
+  ],
+  "sender": {
+    "name": "Nguyen Van A",
+    "number": "09038***44",
+    "address": "Hà Nội"
+  },
+  "receiver": {
+    "name": "Nguyen Van A",
+    "number": "09038***44",
+    "address": "TP Hồ Chí Minh"
+  }
+}
